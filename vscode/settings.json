@@ -1,0 +1,51 @@
+{
+    // VSCode config
+    "breadcrumbs.enabled": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14,
+    "editor.formatOnSave": true,
+    "editor.lineHeight": 22,
+    "editor.parameterHints.enabled": false,
+    "editor.renderLineHighlight": "gutter",
+    "editor.rulers": [80, 120],
+    "editor.tabSize": 4,
+    "emmet.includeLanguages": {
+        "vue-html": "html",
+        "javascript": "javascriptreact"
+    },
+    "emmet.syntaxProfiles": {
+        "javascript": "jsx"
+    },
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.openEditors.visible": 0,
+    "javascript.preferences.quoteStyle": "single",
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "terminal.integrated.fontFamily": "Fira Code",
+    "terminal.integrated.fontSize": 14,
+    "typescript.preferences.quoteStyle": "single",
+    "workbench.colorTheme": "Dracula",
+    "workbench.iconTheme": "material-icon-theme",
+    "window.zoomLevel": 0,
+
+    // Plugins config
+    "eslint.codeActionsOnSave.mode": "all",
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact"
+    ],
+    "prettier.jsxSingleQuote": false,
+    "prettier.semi": false,
+    "prettier.singleQuote": true,
+    "prettier.tabWidth": 4,
+    "vsprettier.jsxSingleQuote": true,
+    "vsprettier.singleQuote": true,
+    "sync.gist": "8e7f4bd5b3fdd821b4640b38657b8ca7"
+}

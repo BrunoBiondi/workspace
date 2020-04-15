@@ -1,0 +1,18 @@
+[
+    "dbaeumer.vscode-eslint",
+    "dracula-theme.theme-dracula",
+    "EditorConfig.EditorConfig",
+    "EmadFanaian.adonisjs-snippets",
+    "esbenp.prettier-vscode",
+    "gerane.Theme-Dark-Dracula",
+    "jpoissonnier.vscode-styled-components",
+    "mikestead.dotenv",
+    "ms-azuretools.vscode-docker",
+    "naumovs.color-highlight",
+    "onecentlin.laravel5-snippets",
+    "PKief.material-icon-theme",
+    "rocketseat.RocketseatReactJS",
+    "rocketseat.RocketseatReactNative",
+    "teeLang.vsprettier",
+    "wix.vscode-import-cost"
+]
