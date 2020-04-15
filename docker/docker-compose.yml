@@ -1,0 +1,45 @@
+version: '3'
+services:
+  postgresql:
+    container_name: postgresql
+    image: postgres:alpine
+    restart: always
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=321321
+      - POSTGRES_DB=postgres
+    ports:
+      - '5432:5432'
+    volumes:
+      - /home/brunobiondi/docker-data/postgresql:/var/lib/postgresql/data
+
+  mariadb:
+    container_name: mariadb
+    image: mariadb:latest
+    restart: always
+    environment:
+      - MYSQL_ROOT_PASSWORD=321321
+    ports:
+      - '3306:3306'
+    volumes:
+      - /home/brunobiondi/docker-data/mariadb:/var/lib/mysql
+
+  mongodb:
+    container_name: mongodb
+    image: mongo:latest
+    restart: always
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=root
+      - MONGO_INITDB_ROOT_PASSWORD=321321
+      - MONGO_URL=mongodb
+    ports:
+      - '27017:27017'
+    volumes:
+      - /home/brunobiondi/docker-data/mongodb:/data/db
+
+  redis:
+    container_name: redis
+    image: redis:alpine
+    restart: always
+    ports:
+      - '6379:6379'
